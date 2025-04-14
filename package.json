@@ -1,0 +1,15 @@
+{
+  "name": "generate-icon-from-svg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate:custom": "fantasticon icons -o icon-generated -n custom-icons --normalize -p custom -t ttf woff woff2",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bagasnur.id",
+  "license": "ISC",
+  "devDependencies": {
+    "fantasticon": "^1.0.0"
+  }
+}
