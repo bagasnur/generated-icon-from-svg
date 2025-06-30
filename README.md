@@ -12,8 +12,10 @@
 
 3. Jalankan perintah generate font
   ```bash
-  npm  run generate:custom
+  npm  run generate:icon
   ```
+
+  > Jika ingin melakukan custom nama font, directory, prefix, dll bisa edit bagian script package.json. Referensi options https://github.com/tancredi/fantasticon
 
 4. Hasil output icon (.svg) akan berada di folder `icon-generated`
 
